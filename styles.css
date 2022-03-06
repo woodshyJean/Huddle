@@ -1,0 +1,104 @@
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    height:100vh;
+    overflow: hidden;
+}
+
+.leftContainer{
+    margin-top: 0px;
+    display: inline-block;
+    position:relative;
+    width:40%;
+    height: 100vh;
+    margin-left: 4%;
+}
+
+.leftContainer img{
+    display:inline-block;
+}
+
+.logo{
+    position:absolute;
+    top:5%;
+    left:8%;
+}
+
+.chatbox{
+    position: absolute;
+    top:25%;
+    left:8%;
+}
+
+.rightContainer{
+    margin-top: 0px;
+    position:relative;
+    float:right;
+    width:40%;
+    height: 100vh;
+    margin-right: 6%;
+}
+
+.tagline{
+    position:absolute;
+    top:25%;
+
+}
+
+.tagline h1{
+    color:white;
+    width:50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tagline p{
+    width:60%;
+    font-family: 'Open Sans', sans-serif;
+    color:whitesmoke;
+    line-height: 1.5;
+}
+
+.button{
+    display:inline-block;
+    position:relative;
+    background-color: white;
+    height:20%;
+    width: 25%;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 3%;
+}
+.button:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+.button h4{
+    color:hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.facebook,.twitter,.instagram {
+    position:absolute;
+    width:6%;
+    height: 6%;
+    bottom:6%;
+    filter:invert(1);
+}
+.facebook:hover,.twitter:hover,.instagram:hover{
+    filter:invert(.5) sepia(1) hue-rotate(315deg);
+}
+.facebook{
+    left:80%;
+
+}
+.twitter{
+    left:90%;
+}
+.instagram {
+    left:100%;  
+}
+footer{
+    display:none;
+}
